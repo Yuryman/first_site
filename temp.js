@@ -4,7 +4,11 @@ const options ={
     height: 1024,
     colors: {
         border: 'black',
-        bg: 'red'
+        bg: 'red',
+        color: 'black'
+    }
+    makeTest: =>() {
+        
     }
 };
 //console.log(options.name);
@@ -21,6 +25,6 @@ const options ={
 //         console.log(`Свойство ${key} имеет значение ${options[key]}`)
 //     }   
 //}
-console.log(Object.keys(options)); // !! Перебор ключей
+console.log(Object.keys(options).length); // !! Перебор ключей
 
 
